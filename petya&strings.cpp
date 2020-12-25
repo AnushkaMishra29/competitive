@@ -15,7 +15,7 @@ int main(){
 	}
 	if(a<b){cout<<"-1"<<endl;}
 	if(a>b){cout<<"1"<<endl;}
-	else cout<<"0"<<endl;
+	if (a==b) cout<<"0"<<endl;
 	return 0;
 
 
